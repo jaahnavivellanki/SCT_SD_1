@@ -1,110 +1,156 @@
-# 🌡️ TempCraft
+Multi-Scale Temperature Processing System
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge"/>
-  <img src="https://img.shields.io/badge/GUI-CustomTkinter-1f538d?style=for-the-badge" alt="CustomTkinter Badge"/>
-</div>
+A modern desktop-based temperature processing and analytics application built using Python and CustomTkinter. The system enables real-time conversion between Celsius, Fahrenheit, and Kelvin scales while providing conversion history tracking, analytics insights, and a clean dashboard-style user interface.
 
-<br>
+⸻
 
-**TempCraft** is a premium, beautifully crafted desktop application for seamless temperature conversion. Designed with a meticulous focus on modern UI/UX principles, TempCraft moves away from traditional, archaic desktop layouts, delivering a sleek, dark-themed experience that feels like a next-generation software product.
+Features
 
----
+* Real-time temperature conversion
+* Support for Celsius, Fahrenheit, and Kelvin scales
+* Conversion history management
+* Analytics dashboard
+* Modern dark-themed user interface
+* Input validation and error handling
+* Modular software architecture
+* Responsive desktop application design
+* Local data persistence
+* User-friendly navigation system
 
-## 💼 Resume-Ready Project Description
+⸻
 
-> **TempCraft - Modern Desktop Application**  
-> Developed a responsive, feature-rich desktop application using Python and CustomTkinter. Engineered a modular architecture to support real-time input validation, session-based conversion history, clipboard integration, and CSV data export. Designed a highly polished, asynchronous UI featuring custom themes, dynamic scaling, and error handling, showcasing a strong command of object-oriented programming, event-driven design, and modern UX/UI standards.
+Screenshots
 
----
+Dashboard
+<img width="1919" height="1023" alt="dashboard png" src="https://github.com/user-attachments/assets/e2211cdd-0fe1-4b43-a43e-a64aa8d0bf89" />
 
-## ✨ Features
+Conversion Demo
+<img width="1919" height="1021" alt="conversion-demo png" src="https://github.com/user-attachments/assets/97ee7068-e55f-493a-b493-4859e6d6f725" />
 
-- **Real-Time Validation**: Instant visual feedback on input validity.
-- **Session History & Export**: Automatically logs conversions with timestamps and allows exporting data to CSV.
-- **Quick Actions**: Swap units instantly, copy results to the clipboard with one click, and trigger conversions via the `Enter` key.
-- **Dynamic Layout**: A professional, responsive card-based layout (900x650) that adjusts elegantly.
-- **Rich Notifications**: In-app popups and status messages for a smooth user experience.
-- **Modern Aesthetics**: Built with CustomTkinter for rounded corners, cohesive color palettes, hover effects, and a premium dark mode.
+History
+<img width="1918" height="1018" alt="history png" src="https://github.com/user-attachments/assets/56cad2f7-8785-45e5-bef5-94edc07a4f59" />
 
----
+Analytics
+<img width="1919" height="1020" alt="analytics png" src="https://github.com/user-attachments/assets/ae348cf9-27ae-4345-a617-3af218a476b8" />
 
-## 📸 Screenshots
+Validation
+<img width="1919" height="1019" alt="validation png" src="https://github.com/user-attachments/assets/ce3cfbae-a90a-4ef8-a6a5-ce2fe5c855cb" />
 
-*(Replace placeholders with actual images of your application)*
+Technology Stack
 
-| Main Converter View | History & Export |
-| :---: | :---: |
-| ![Converter Placeholder](assets/converter_view.png) | ![History Placeholder](assets/history_view.png) |
+Programming Language
 
----
+* Python
 
-## 🛠️ Technologies Used
+GUI Framework
 
-- **Python 3.x**: Core application logic and event handling.
-- **CustomTkinter**: Modern GUI rendering, theming, and widget creation.
-- **Standard Libraries**: `datetime` (timestamps), `csv` (data export), `tkinter` (clipboard and dialogs).
+* CustomTkinter
 
----
+Architecture
 
-## 📂 Project Structure
+* Object-Oriented Programming (OOP)
+* Modular Design
+* Event-Driven Programming
 
-```text
-TempCraft/
-├── main.py              # Application entry point
-├── README.md            # Project documentation
-├── assets/              # Icons and screenshots
-│   └── app_icon.ico
-```
-*(Note: As the project grows, UI components will be abstracted into dedicated modules.)*
+Tools
 
----
+* Git
+* GitHub
+* VS Code
 
-## 🚀 Installation
+⸻
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/TempCraft.git
-   cd TempCraft
-   ```
+Project Structure
 
-2. **Set up a virtual environment (Recommended):**
-   ```bash
-   python -m venv venv
-   # Windows:
-   venv\Scripts\activate
-   # macOS/Linux:
-   source venv/bin/activate
-   ```
+Multi-Scale-Temperature-Processing-System/
+│
+├── assets/
+│   └── screenshots/
+│
+├── tempcraft/
+│   ├── config/
+│   ├── core/
+│   ├── data/
+│   ├── models/
+│   ├── plugins/
+│   ├── services/
+│   └── ui/
+│
+├── tests/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 
-3. **Install the dependencies:**
-   ```bash
-   pip install customtkinter
-   ```
+⸻
 
----
+Installation
 
-## 🎮 Usage
+Clone Repository
+https://github.com/jaahnavivellanki/SCT_SD_1
 
-1. Run the application from your terminal:
-   ```bash
-   python main.py
-   ```
-2. Type a temperature value in the input field.
-3. Select your Source and Target units.
-4. Press `Enter` or click the **Convert** button.
-5. Use the **Copy** button to save the result, or view the history panel on the right!
+Navigate to Project Directory
 
----
+cd SCT_SD_1
 
-## 🔮 Future Enhancements
+Install Dependencies
 
-- **Persistent Storage**: Save conversion history to a local SQLite database across sessions.
-- **Additional Units**: Implement support for Rankine and Delisle scales.
-- **Theming Options**: Add a settings menu to let users toggle between Dark, Light, and System themes, or define custom accent colors.
-- **Advanced Math Parsing**: Allow users to type simple equations (e.g., `20+5`) in the input field.
+pip install -r requirements.txt
 
----
-<div align="center">
-  <i>Created with ☕ and Python by <a href="https://github.com/yourusername">Your Name</a></i>
-</div>
+Run Application
+
+python main.py
+
+⸻
+
+Analytics Module
+
+The analytics section provides:
+
+* Total conversions performed
+* Most frequently used temperature scale
+* Conversion activity tracking
+* Recent conversion statistics
+
+⸻
+
+Learning Outcomes
+
+This project helped strengthen understanding of:
+
+* Python application development
+* GUI development with CustomTkinter
+* Object-Oriented Programming
+* Modular software architecture
+* Event-driven programming
+* Data handling and validation
+* Software project organization
+* Version control using Git and GitHub
+
+⸻
+
+Future Enhancements
+
+* Additional unit conversion categories
+* Export conversion reports
+* Cloud synchronization
+* User authentication
+* Advanced analytics visualizations
+* Theme customization
+
+⸻
+
+Author
+
+Jaahnavi Vellanki
+
+Information Technology Student | Python Developer | Full-Stack & AI Enthusiast
+
+GitHub: https://github.com/jaahnavivellanki
+
+⸻
+
+License
+
+This project is licensed under the MIT License.
