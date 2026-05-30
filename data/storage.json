@@ -1,0 +1,47 @@
+[
+    {
+        "id": "6a127767-5d7e-4544-a042-3987a301e235",
+        "source_value": 100.0,
+        "source_unit": "Celsius",
+        "target_value": 212.0,
+        "target_unit": "Fahrenheit",
+        "category": "Temperature",
+        "timestamp": "2026-05-30T12:57:22.931164"
+    },
+    {
+        "id": "884e7aec-b593-444e-bd4d-04f96c254038",
+        "source_value": 25.0,
+        "source_unit": "Celsius",
+        "target_value": 77.0,
+        "target_unit": "Fahrenheit",
+        "category": "Temperature",
+        "timestamp": "2026-05-30T12:58:02.852228"
+    },
+    {
+        "id": "aed4547a-69c2-471a-a75a-4e550b34d2f4",
+        "source_value": 300.0,
+        "source_unit": "Kelvin",
+        "target_value": 26.850000000000023,
+        "target_unit": "Celsius",
+        "category": "Temperature",
+        "timestamp": "2026-05-30T12:58:16.017519"
+    },
+    {
+        "id": "4470d3e7-8bbb-4c5d-b149-17250944566a",
+        "source_value": 100.0,
+        "source_unit": "Celsius",
+        "target_value": 212.0,
+        "target_unit": "Fahrenheit",
+        "category": "Temperature",
+        "timestamp": "2026-05-30T13:02:53.343527"
+    },
+    {
+        "id": "6e700da2-9e9b-4fac-800f-c175ab2ae5ff",
+        "source_value": 100.0,
+        "source_unit": "Celsius",
+        "target_value": 212.0,
+        "target_unit": "Fahrenheit",
+        "category": "Temperature",
+        "timestamp": "2026-05-30T13:13:32.505334"
+    }
+]
