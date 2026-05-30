@@ -63,10 +63,13 @@ Tools
 Project Structure
 
 Multi-Scale-Temperature-Processing-System/
-│
-├── assets/
-│   └── screenshots/
-│
+├── data/
+├── screenshots/
+│   ├── analytics.png
+│   ├── conversion-demo.png
+│   ├── dashboard.png
+│   ├── history.png
+│   └── validation.png
 ├── tempcraft/
 │   ├── config/
 │   ├── core/
@@ -75,11 +78,8 @@ Multi-Scale-Temperature-Processing-System/
 │   ├── plugins/
 │   ├── services/
 │   └── ui/
-│
 ├── tests/
-│
 ├── main.py
-├── requirements.txt
 ├── README.md
 └── .gitignore
 
